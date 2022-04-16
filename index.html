@@ -1,0 +1,82 @@
+
+<!Doctype html>
+<html>
+
+<header>
+<h1 id="title"> Define your next House! </h1>
+</header>
+
+<body>
+  <link rel="stylesheet" type="text/css" href="survey-form.css">
+  <p id="Description"> Please, fill the next details to find the best house for you.</p>
+
+<form id="survey-form">
+  <div class="input-headers"> 
+    <label for="name" id="name-label"> Name </label>
+    <input id="name" type="text" name="name" placeholder="Pedro Leal" class="form-input" required>
+    <br>
+    <label for="email" id="email-label"> Email </label>
+    <input id="email" type="text" name="email" placeholder="lealpedro@gmail.com" class="form-input" required>
+    <br>
+    <label for="number" id="number-label"> Age </label>
+    <input id="number" type="number" name="number" placeholder="22" min="18"
+    max="100" class="form-input" required>
+    <br>
+
+    <label for="dropdown" id="character"> Select how many floors:</label>
+    <select id="dropdown" class="form-input">
+      <option value="One"> One </option>
+      <option value="Two"> Two </option>
+      <option value="Three"> Three </option>
+      <option value="Four"> Four </option>
+    </select>
+    <br>
+    <br>
+
+    <label for="view" id="features">Which view would you like the most:</label>
+    <br>    
+      <input id="features" type="radio" id="Lake" name="neigboor" value="Lake">
+      <label for="features"> Lake </label>
+      <br>
+
+      <input id="features" type="radio" id="skyscraper" name="neigboor" value="skyscraper">
+      <label for="features"> skyscraper </label>
+      <br>
+
+      <input id="features" type="radio" id="Ocean" name="neigboor" value="Ocean">
+      <label for="features"> Ocean </label>
+      <br>
+
+      <input id="features" type="radio" id="Mountains" name="neigboor" value="Mountains">
+      <label for="features"> Mountains </label>
+    <br>
+    <br>
+    <label for="house"> Please add which extra rooms you would be interested in:</label>
+    <br>
+    <input id="checkbox" type="checkbox" name="house" value="game room">
+    <label for="checkbox"> game room </label>
+    <br>
+    <input id="checkbox" type="checkbox" name="house" value="warehouse">
+    <label for="checkbox"> warehouse </label>
+    <br>
+    <input id="checkbox" type="checkbox" name="house" value="gym room">
+    <label for="checkbox"> gym room </label>
+    <br>
+    <input id="checkbox" type="checkbox" name="house" value="garage">
+    <label for="checkbox"> garage </label>
+    <br>
+    <input id="checkbox" type="checkbox" name="house" value="balcony">
+    <label for="checkbox"> balcony </label>
+    <br>
+    <br>
+    <label id="textarea"> Additional Comments</label>
+    <br>
+    <textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+
+    <br>
+    <input id="submit" type="submit" value="Send" class="submit-button">
+  </div>
+</form>
+</body>
+
+</html>
